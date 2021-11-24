@@ -93,41 +93,32 @@ body{
 
 
     /* parte del main */
-    .encabezado img{
+    .contenedor{
         width: 90%;
         max-width: 100%;
         background: url(ropa.jpg);
         background-position: center;
         background-size: cover;
-        padding: 230px 450px;
-        position: relative;
-        clip-path: polygon(0 0, 0 100%, 100% 100%);
+        clip-path: inset(0 0 60% 0);
+        clip-path: polygon(0 0, 0 36%, 100% 0);
     }
     
-    .encabezado p {
+    .titulo{
         text-align: end;
         margin-right: 40px;
         font-family: 'Dancing Script', cursive;
         font-size: 45px;
         font-weight: bold;
-        margin-top: -310px;
-        background:rgb(54, 51, 51);
     }
-    .encabezado h1{
+    .titulo h1{
         font-size: 100px;
         margin-right: 250px;
-        text-align: end;
-        margin-right: 40px;
-        font-family: 'Dancing Script', cursive;
-        margin-top: -25px;
-        margin-right: 250px;
-        background:rgb(54, 51, 51);
     }
     /* parte del main */
     /* comienzo parte del cuerpo */
     .grid-conteiner{
         padding: 30px;
-
+        font-family: serif;
         text-align: center;
         display: grid;
         gap: 10px;
@@ -136,4 +127,6 @@ body{
     }
     .primeraparte{
         margin-top:130px ;
+   
     }
+    
