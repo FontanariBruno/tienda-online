@@ -127,7 +127,7 @@ body{
     /* comienzo parte del cuerpo */
     .grid-conteiner{
         padding: 30px;
-
+        margin-top:100px ;
         text-align: center;
         display: grid;
         gap: 10px;
@@ -136,4 +136,13 @@ body{
     }
     .primeraparte{
         margin-top:130px ;
+    }
+    .grid-conteiner a{
+    color: black;
+    padding: 5px;
+    background: #00c4ff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
     }
