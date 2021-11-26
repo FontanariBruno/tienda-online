@@ -12,17 +12,19 @@ body{
 }
 
 .navbar {
-    background-color: #111;
+    background-color: #121212;
     display: flex;
     justify-content: space-between;
     padding: 2em;
     border-bottom: 1px solid #1b1b1b;
     box-shadow: 0 0 5px rgb(0, 0, 0);
 }
-
-.brand h2{
-   /* margin-top: -9px; */
+.brand img {
+    width: 115px;
+    height: 95px;
+    margin-top: -15px;
 }
+
 .brand span {
     color: #f10000;
 }
@@ -96,11 +98,12 @@ body{
     .encabezado img{
         width: 60%;
         max-width: 100%;
-        background: url(ropa.jpg);
+        background: url(imagenes/fondo.jpg);
         background-position: center;
         background-size: cover;
         position: relative;
         clip-path: polygon(0 0, 0 100%, 100% 100%);
+        box-shadow: #000;
     }
     
     .encabezado p {
@@ -137,4 +140,35 @@ body{
         margin-top:130px ;
    
     }
+
+    /*parte del footer*/
+    footer{
+        margin-top: 80%;
+        margin-left: -10px;
+        background-color: #121212;
+    }
+    .contenedorfooter{
+        margin: 40px;
+        margin-top: 15px;
+        margin-left: 7%;
+    }
+    .contenedorfooter2{
+       margin-left: 70%;
+       margin-top: -27%;
+
+    }
+    .contenedorfooter div{
+        margin-bottom: 15px;
+        margin-left: 40px;
+    }
+    .contenedorfooter2 div{
+        margin-bottom: 15px;
+        margin-left: 40px;
+    }
+    .logo{
+        background: url(/tienda-online/imagenes/logo.jpg);
+        margin-left: 35%;
+        margin-top: -27%;
+        position: absolute;
+        }
     

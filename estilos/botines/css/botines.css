@@ -12,18 +12,21 @@ body{
 }
 
 .navbar {
-    background-color: #131313;
+    background-color:#121212;
     display: flex;
     justify-content: space-between;
     padding: 2em;
     border-bottom: 1px solid #1b1b1b;
     box-shadow: 0 0 5px rgb(0, 0, 0);
 }
-
 .brand img {
     width: 115px;
     height: 95px;
     margin-top: -15px;
+}
+
+.brand span {
+    color: #f10000;
 }
 
 .buscador {
@@ -93,14 +96,14 @@ body{
 
     /* parte del main */
     .encabezado img{
-        width: 90%;
+        width: 60%;
         max-width: 100%;
-        background: url(ropa.jpg);
+        background: url(imagenes/fondo.jpg);
         background-position: center;
         background-size: cover;
-        padding: 230px 450px;
         position: relative;
         clip-path: polygon(0 0, 0 100%, 100% 100%);
+        box-shadow: #000;
     }
     
     .encabezado p {
@@ -126,34 +129,23 @@ body{
     /* comienzo parte del cuerpo */
     .grid-conteiner{
         padding: 30px;
-        margin-top:200px;
+        font-family: serif;
         text-align: center;
         display: grid;
         gap: 10px;
         grid-template-areas: "main";
         grid-template-columns: 33% 33% 33%;
     }
-    .grid-conteiner div{
-        margin-bottom: 150px;
-    }
     .primeraparte{
         margin-top:130px ;
-    }
-    .grid-conteiner a{
-    color: black;
-    padding: 5px;
-    background-color: #ffffff;
-    display: inline-block;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    text-decoration: none;
+   
     }
 
     /*parte del footer*/
     footer{
+        margin-top: 80%;
         margin-left: -10px;
-        background-color: #131313;
+        background-color: #121212;
     }
     .contenedorfooter{
         margin: 40px;
@@ -179,3 +171,4 @@ body{
         margin-top: -27%;
         position: absolute;
         }
+    
